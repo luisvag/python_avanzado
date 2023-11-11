@@ -131,7 +131,7 @@ while se_ejecuta:
     #MOVER JUGADOR(MODIFICAR MOVIMIENTO)
     jugador_x += jugador_x_cambio
 
-    #LIMITAR MOVIMIENTO ENEMIGO(MANTENER DENTRO DE PANTALLA)
+    #LIMITAR MOVIMIENTO JUGADOR(MANTENER DENTRO DE PANTALLA)
     if jugador_x <= 0:
         jugador_x = 0
     elif jugador_x >= 736:
